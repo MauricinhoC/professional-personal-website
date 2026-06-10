@@ -24,7 +24,7 @@ export default function ElsewhereChase({ links = LINKS }) {
         y: 16 + i * 8,
       }))
     );
-  }, [links.length]);
+  }, [links]);
 
   const randomSpot = useCallback((i) => {
     const area = areaRef.current?.getBoundingClientRect();

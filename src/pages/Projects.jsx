@@ -49,9 +49,7 @@ export default function Projects() {
             <div className="project-actions">
               <a
                 className="btn"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/projects"
               >
                 View App
               </a>
@@ -78,9 +76,7 @@ export default function Projects() {
             <div className="project-actions">
               <a
                 className="btn"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/projects"
               >
                 View App
               </a>
