@@ -7,53 +7,54 @@ export default function Projects() {
         <h1>Projects</h1>
 
         <div className="grid">
-          {/* Stock Trading System */}
-          <article className="card" id="stock-system">
-            <h3>Stock Trading System (CSE 305)</h3>
+          <article className="card" id="fantasy-baseball">
+            <h3>Fantasy Baseball Draft Kit (Capstone Project)</h3>
             <p>
-              Full Java + MySQL stock trading simulator with multi-order support 
-              (Market, Market-on-Close, Trailing Stop, Hidden Stop). Includes DAO 
-              layer and transaction logic.
+              Tech: React, TypeScript, Node.js, Express, MySQL
             </p>
             <p>
+              Full-stack fantasy baseball draft platform with real-time player valuation,
+              dynamic draft recommendations, customizable league configurations, and automated
+              CI/CD deployment pipelines.
+            </p>
+            <div className="project-actions">
               <a
                 className="btn"
-                href="https://github.com/MauricinhoC/homework_4_220"
+                href="https://416-crimson-group.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View App
+              </a>
+              <a
+                className="btn"
+                href="https://github.com/MauricinhoC/416-Crimson-Group"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 View Code
               </a>
-            </p>
+            </div>
           </article>
 
-          {/* dosiero – V6 Filesystem Tool */}
-          <article className="card" id="dosiero">
-            <h3>dosiero – V6 Filesystem Tool</h3>
-            <p>
-              Unix V6-style filesystem utility written in C. Supports archive, 
-              extract, and consistency-check modes with automated testing and CI.
-            </p>
-            <p>
-              <a
-                className="btn"
-                href="https://github.com/MauricinhoC/cse220_hw2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Code
-              </a>
-            </p>
-          </article>
-
-          {/* Phreddit – Reddit-like Platform */}
           <article className="card" id="phreddit">
             <h3>Phreddit – Reddit-like Platform</h3>
             <p>
-              MERN stack project replicating Reddit features: communities, posts,
-              comments, and link flairs with live sorting and filtering.
+              Tech: React, Node.js, Express, MongoDB
             </p>
             <p>
+              MERN-stack Reddit-style application featuring authentication, communities,
+              posts, comments, content sorting, and secure user management.
+            </p>
+            <div className="project-actions">
+              <a
+                className="btn"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View App
+              </a>
               <a
                 className="btn"
                 href="https://github.com/sbu-ckane-f24-cse316-pa01org/project-part-4"
@@ -62,17 +63,27 @@ export default function Projects() {
               >
                 View Code
               </a>
-            </p>
+            </div>
           </article>
 
-          {/* Fake Twitter Replication */}
-          <article className="card" id="twitter-clone">
+          <article className="card" id="twitter-replication">
             <h3>Twitter Replication</h3>
             <p>
-              Full-stack Twitter clone with authentication, posts, likes, and 
-              live feed updates. Built with React, Node.js, Express, and MongoDB.
+              Tech: Svelte, MySQL
             </p>
             <p>
+              Social media platform replicating core Twitter functionality including timelines,
+              follows, bookmarks, profiles, and tweet interactions.
+            </p>
+            <div className="project-actions">
+              <a
+                className="btn"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View App
+              </a>
               <a
                 className="btn"
                 href="https://github.com/wcc-webprogramming-1/web-project"
@@ -81,7 +92,28 @@ export default function Projects() {
               >
                 View Code
               </a>
+            </div>
+          </article>
+
+          <article className="card" id="stock-system">
+            <h3>Stock Trading System</h3>
+            <p>
+              Tech: Java, MySQL, Tomcat
             </p>
+            <p>
+              Java-based stock trading simulator implementing portfolio management,
+              order execution, transaction tracking, and MySQL-backed persistence.
+            </p>
+            <div className="project-actions">
+              <a
+                className="btn"
+                href="https://github.com/MauricinhoC/homework_4_220"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Code
+              </a>
+            </div>
           </article>
         </div>
       </section>

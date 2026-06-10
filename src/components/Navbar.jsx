@@ -84,14 +84,9 @@ export default function Navbar({ menuOpen, onMenuToggle }) {
         </div>
 
         <p className="pitch-body">
-          Hi, I’m Mauricio, a Computer Science student at Stony Brook University who’s passionate about low-level 
-          systems and software development. I’ve built projects ranging from a Unix V6 filesystem tool in C to 
-          full-stack web applications, and I take pride in writing clean, reliable code that performs well. 
-          I’ve achieved all this while working full-time and studying in a 
-          language I only began learning in 2018 when I first arrived in the United States — it’s taught me discipline, adaptability, and resilience. 
-          I bring that same drive to every project I work on, and I’d love the opportunity to contribute 
-          that mindset and skill set to your team. Would you be open to discussing how I can make your company make more
-          money?
+          Hi, I'm Mauricio Cardoso, a recent Computer Science graduate from Stony Brook University. I specialize in full-stack software development and have built projects ranging from low-level systems tools in C to scalable web applications using React, TypeScript, Node.js, and MySQL.
+
+          Having worked full-time while earning my degree and learning English after moving to the U.S. in 2018, I've developed a strong work ethic, adaptability, and resilience. I'm now looking for opportunities where I can grow as a software engineer, build impactful products, and help teams solve meaningful technical challenges.
         </p>
 
         <div className="pitch-cta">

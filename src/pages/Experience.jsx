@@ -24,48 +24,47 @@ export default function Experience() {
         <h1>Experience</h1>
 
         <div className="grid">
-          {/* CS Projects */}
           <article className="card">
-            <h3>CS Projects • Stony Brook University</h3>
-            <p>2023–Present • Stony Brook, NY</p>
+            <h3>Bartender / Floor Manager | Casa Fuego</h3>
+            <p>2025–Present</p>
             <ul>
-              <li>Full-stack projects across data modeling, API design, and UI engineering.</li>
-              <li>Stock trading simulation (Java/MySQL/Tomcat) with complex order logic.</li>
-              <li>Unix V6 filesystem tool (C) emphasizing performance and correctness.</li>
-              <li>MERN app with role-based access and modular React components.</li>
+              <li>Manage daily restaurant and bar operations in a high-volume environment, coordinating staff, customer service, and workflow efficiency during peak business hours.</li>
+              <li>Utilize Toast POS to process transactions, track sales performance, manage orders, and support inventory and operational reporting.</li>
+              <li>Create and maintain weekly employee schedules using Excel, balancing staffing requirements, labor costs, and employee availability.</li>
+              <li>Train and supervise new team members, ensuring adherence to service standards, operational procedures, and customer satisfaction goals.</li>
             </ul>
           </article>
 
-          {/* Volunteer Tech Support */}
           <article className="card">
-            <h3>Volunteer Tech Support • Church</h3>
-            <p>2023–Present • New York, NY</p>
+            <h3>Inventory Management System Developer • Independent Project</h3>
+            <p>2024 • Personal Project</p>
             <ul>
-              <li>Set up AV systems and managed live streaming during services.</li>
-              <li>Maintained basic website content and helped digitize internal workflows.</li>
-              <li>Trained volunteers on basic troubleshooting and device setup.</li>
+              <li>Designed and developed a custom inventory management system for a tire distribution business to streamline inventory tracking and operational workflows.</li>
+              <li>Implemented tools for managing stock levels, product records, and inventory updates through an intuitive user interface.</li>
+              <li>Designed database structures to improve data organization, accuracy, and retrieval efficiency.</li>
+              <li>Gathered business requirements directly from stakeholders and translated operational needs into software solutions.</li>
             </ul>
           </article>
 
-          {/* Server at Patsy's */}
           <article className="card">
-            <h3>Server • Patsy’s Pizzeria</h3>
-            <p>2023–2024 • New York, NY</p>
+            <h3>Server • Chat American Grill</h3>
+            <p>2023–2024 • Scarsdale, NY</p>
             <ul>
-              <li>High-volume service with emphasis on communication and multitasking.</li>
-              <li>Mentored new hires on service etiquette and teamwork.</li>
-              <li>Maintained quality and pace during busy weekend rushes.</li>
+              <li>Delivered high-quality customer service in a fast-paced dining environment while managing multiple tables simultaneously.</li>
+              <li>Developed strong communication and problem-solving skills through direct customer interaction.</li>
+              <li>Collaborated with kitchen and front-of-house teams to ensure efficient service and guest satisfaction.</li>
+              <li>Trained and mentored new staff members on restaurant procedures and service standards.</li>
             </ul>
           </article>
 
-          {/* Bartender at Casa Fuego */}
           <article className="card">
-            <h3>Bartender • Casa Fuego (Ridge Hill)</h3>
-            <p>2024–Present • Yonkers, NY</p>
+            <h3>Volunteer Technology Support • Church</h3>
+            <p>2020–2023 • New York, NY</p>
             <ul>
-              <li>Created craft cocktails and engaged guests in a high-energy environment.</li>
-              <li>Oversaw prep, inventory, and bar maintenance to ensure smooth shifts.</li>
-              <li>Consistently earned strong feedback and returning regulars.</li>
+              <li>Configure and maintain audio/visual systems supporting live services and events.</li>
+              <li>Manage livestreaming equipment and troubleshoot technical issues during broadcasts.</li>
+              <li>Assist with website updates and digital content management.</li>
+              <li>Train volunteers on equipment setup, operation, and basic technical troubleshooting.</li>
             </ul>
           </article>
         </div>

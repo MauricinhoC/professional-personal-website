@@ -65,6 +65,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+## Contact form setup
+
+This site uses a backend endpoint to submit contact messages. The easiest free option is Formspree.
+
+### Formspree setup
+
+1. Go to https://formspree.io and sign up for a free account.
+2. Create a new form and copy the provided form endpoint URL, which looks like:
+
+```text
+https://formspree.io/f/your-form-id
+```
+
+3. Create a `.env` file in the project root and add:
+
+```env
+REACT_APP_CONTACT_ENDPOINT=https://formspree.io/f/your-form-id
+```
+
+4. Restart the development server.
+
+The form code already sends JSON and accepts Formspree responses, so once your endpoint is configured, the contact page will submit real messages.
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
